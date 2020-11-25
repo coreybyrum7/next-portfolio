@@ -1,0 +1,9 @@
+.Header {
+  border-bottom: 1px solid #cecece;
+  @include padding($bottom: 7);
+
+  &__info {
+    height: 100%;
+    @include add-flex($display: flex, $flex-direction: column, $justify-content: flex-end);
+  }
+}

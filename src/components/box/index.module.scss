@@ -1,0 +1,7 @@
+.Box {
+  @for $i from 1 through 8 {
+    &--#{$i} {
+      grid-column: span #{$i};
+    }
+  }
+}

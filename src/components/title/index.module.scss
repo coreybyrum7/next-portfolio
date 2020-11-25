@@ -1,0 +1,47 @@
+@import './../../sass/base/font';
+
+.Title {
+  $this: &;
+
+  @for $i from 1 through 14 {
+    &--size-#{$i} {
+      @include font($i, 700);
+    }
+
+    &--spacing-#{$i} {
+      @include padding($bottom: $i);
+    }
+  }
+
+  &--weight {
+    &-light {
+      @include font-weight(200);
+    }
+
+    &-normal {
+      @include font-weight(400);
+    }
+
+    &-bold {
+      @include font-weight(700);
+    }
+  }
+
+  &--align {
+    &-left {
+      text-align: left;
+    }
+
+    &-center {
+      text-align: center;
+    }
+
+    &-right {
+      text-align: right;
+    }
+  }
+
+  &--college {
+    color: purple;
+  }
+}

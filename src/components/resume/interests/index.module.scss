@@ -1,0 +1,8 @@
+.Interests {
+  @include padding($top: 7);
+
+  &__icons {
+    display: flex;
+    flex-direction: row;
+  }
+}

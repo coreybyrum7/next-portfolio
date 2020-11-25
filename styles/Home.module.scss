@@ -1,4 +1,30 @@
-.container {
+@font-face {
+  font-family: 'Font';
+  src: url('/static/fonts/');
+  src: url('/static/fonts/Montserrat-Black.ttf');
+  src: url('/static/fonts/Montserrat-BlackItalic.ttf');
+  src: url('/static/fonts/Montserrat-Bold.ttf');
+  src: url('/static/fonts/Montserrat-BoldItalic.ttf');
+  src: url('/static/fonts/Montserrat-ExtraBold.ttf');
+  src: url('/static/fonts/Montserrat-ExtraBoldItalic.ttf');
+  src: url('/static/fonts/Montserrat-ExtraLight.ttf');
+  src: url('/static/fonts/Montserrat-ExtraLightItalic.ttf');
+  src: url('/static/fonts/Montserrat-Light.ttf');
+  src: url('/static/fonts/Montserrat-LightItalic.ttf');
+  src: url('/static/fonts/Montserrat-Medium.ttf');
+  src: url('/static/fonts/Montserrat-MediumItalic.ttf');
+  src: url('/static/fonts/Montserrat-Regular.ttf');
+  src: url('/static/fonts/Montserrat-SemiBold.ttf');
+  src: url('/static/fonts/Montserrat-SemiBoldItalic.ttf');
+  src: url('/static/fonts/Montserrat-Thin.ttf');
+  src: url('/static/fonts/Montserrat-ThinItalic.ttf');
+}
+
+body {
+  font-family: 'Font'
+}
+
+.Container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -7,7 +33,7 @@
   align-items: center;
 }
 
-.main {
+.Main {
   padding: 5rem 0;
   flex: 1;
   display: flex;
@@ -16,7 +42,7 @@
   align-items: center;
 }
 
-.footer {
+.Footer {
   width: 100%;
   height: 100px;
   border-top: 1px solid #eaeaea;
@@ -25,11 +51,11 @@
   align-items: center;
 }
 
-.footer img {
+.Footer img {
   margin-left: 0.5rem;
 }
 
-.footer a {
+.Footer a {
   display: flex;
   justify-content: center;
   align-items: center;

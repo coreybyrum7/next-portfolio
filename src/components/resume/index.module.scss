@@ -1,0 +1,11 @@
+.Resume {
+  box-shadow: -20px 80px 80px 0px rgba(0, 0, 0, 0.19), 0px 40px 80px 20px rgba(0, 0, 0, 0.19);
+  background: #dee4e9;
+  padding: 4rem;
+  width: 900px;
+
+  &__section_border {
+    border-bottom: 1px solid #cecece;
+  }
+}
+

@@ -1,0 +1,15 @@
+.Icon {
+  width: var(--space-6);
+  height: var(--space-8);
+
+  @include margin($right: 5);
+  @include padding($top: 2);
+
+  &--interests {
+    width: var(--space-11);
+    height: var(--space-11);
+    border: 2px solid black;
+    border-radius: 100%;
+    @include padding($all: 5);
+  }
+}

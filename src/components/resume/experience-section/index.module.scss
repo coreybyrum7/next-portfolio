@@ -1,0 +1,17 @@
+.ExperienceSection {
+  &__container {
+    display: flex;
+    align-items: center;
+
+    &:nth-of-type(1) {
+      @include margin($bottom: 3);
+    }
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+  
+      @include padding($bottom: 2);
+    }
+  }
+}

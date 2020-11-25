@@ -1,0 +1,12 @@
+.Biography {
+  border-bottom: 1px solid #cecece;
+  @include padding($top: 4, $bottom: 8);
+
+  &__title {
+
+  }
+
+  &__info {
+    @include padding($top: 6);
+  }
+}
