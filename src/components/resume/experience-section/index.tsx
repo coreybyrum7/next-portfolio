@@ -25,7 +25,8 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ title, pos
           </Title>
         </div>
       </div>
-      <div className={styles.ExperienceSection__container}>
+      {p1 &&
+        <div className={styles.ExperienceSection__container}>
         <div className={styles.ExperienceSection__container_content}>
           <List
             type="experienceHighlights"
@@ -33,6 +34,7 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ title, pos
           />
         </div>
       </div>
+      }
     </div>
   );
 };

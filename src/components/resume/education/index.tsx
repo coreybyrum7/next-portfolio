@@ -15,8 +15,8 @@ export const Education: React.FC = () => {
       </Title>
       <Title
         size={4}
-        spacing={3}
-        weight="normal"
+        spacing={2}
+        weight="bold"
         modifier="college"
       >
         East Carolina University, 2011-2015
@@ -24,7 +24,7 @@ export const Education: React.FC = () => {
       <Title
         size={4}
         spacing={3}
-        weight="normal"
+        weight="light"
       >
         Computer Science, BS
       </Title>

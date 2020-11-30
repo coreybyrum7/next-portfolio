@@ -3,7 +3,6 @@
   height: var(--space-8);
 
   @include margin($right: 5);
-  @include padding($top: 2);
 
   &--interests {
     width: var(--space-11);

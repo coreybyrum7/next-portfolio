@@ -1,14 +1,11 @@
 .List {
   list-style: none;
-  @include margin($top: 0);
+  @include margin($top: 0, $bottom: 0);
   @include padding($left: 8);
 
   li {
     line-height: 1.5em;
     @include font(4);
-
-    &:not(:last-child) {
-      @include padding($bottom: 1);
-    }
+    @include padding($bottom: 2);
   }
 }
