@@ -9,8 +9,8 @@ export const Experience: React.FC = () => {
   return (
     <div className={styles.Experience}>
       <Title 
-        size={6}
-        spacing={6}
+        size={4}
+        spacing={5}
       >
         Experience
       </Title>
@@ -26,19 +26,21 @@ export const Experience: React.FC = () => {
         title="Learn on Demand Systems"
         position="Lead UI/UX Engineer"
         date="09/2018 - 08/2019"
-        p1="Lead new design initiatives with UX best practices"
-        p2="Site maintenance and continuous modernization"
+        p1="Lead new design initiatives while enforcing UX best practices"
+        p2="Redesigned documentation site, created one stop-shop admin menu (similar to AWS console)"
+        p3="Received company 'Impact Award' at annual event for modernizing site"
       />
       <ExperienceSection
         title="Learn on Demand Systems"
         position="Front End Engineer"
         date="02/2018 - 09/2018"
-        p1="Built out LODs' Training Management platform"
+        p1="Built out LODs' Training Management platform which allowed customers to create and manage classrooms, labs, and students"
       />
       <ExperienceSection
         title="3M Health Information Systems"
         position="Full Stack Engineer"
         date="02/2018 - 09/2018"
+        p1="Merged cloud space from Azure to AWS"
       />
       <ExperienceSection
         title="Charles Schwab"

@@ -1,11 +1,13 @@
 .ExperienceSection {
-  @include margin($bottom: 4);
+  &:not(:last-of-type) {
+    @include margin($bottom: 3);
+  }  
   
   &__container {
     display: flex;
 
     &:nth-of-type(1) {
-      @include margin($bottom: 3);
+      @include margin($bottom: 2);
     }
 
     &_content {

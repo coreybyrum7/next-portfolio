@@ -1,11 +1,15 @@
 .List {
   list-style: none;
+  padding-left: calc(#{var(--space-3)} + #{var(--space-4)});
   @include margin($top: 0, $bottom: 0);
-  @include padding($left: 8);
+
+  &--skills {
+    @include padding($top: 4, $left: 0);
+  }
 
   li {
-    line-height: 1.5em;
-    @include font(4);
+    line-height: 1.35em;
+    @include font(2);
     @include padding($bottom: 2);
   }
 }

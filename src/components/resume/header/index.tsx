@@ -16,7 +16,7 @@ export const Header: React.FC = () => {
         <Box numColumns={1}>
           <div className={styles.Header_title}>
             <Title 
-              size={8}
+              size={6}
               weight="bold"
               alignment="left"
             >
@@ -26,10 +26,10 @@ export const Header: React.FC = () => {
         </Box>
         <Box numColumns={1}>
           <div className={styles.Header__info}>
-            <TextBlock size={4}>
+            <TextBlock size={2}>
               coreybyrum7@gmail.com
             </TextBlock>
-            <TextBlock size={4}>
+            <TextBlock size={2}>
               +1 (252) 489-0938
             </TextBlock>
           </div>

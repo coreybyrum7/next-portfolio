@@ -8,13 +8,13 @@ export const Education: React.FC = () => {
   return (
     <div className={styles.Education}>
       <Title 
-        size={6}
-        spacing={6}
+        size={4}
+        spacing={5}
       >
         Education
       </Title>
       <Title
-        size={4}
+        size={2}
         spacing={2}
         weight="bold"
         modifier="college"
@@ -22,7 +22,7 @@ export const Education: React.FC = () => {
         East Carolina University, 2011-2015
       </Title>
       <Title
-        size={4}
+        size={2}
         spacing={3}
         weight="light"
       >

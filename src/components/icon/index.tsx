@@ -6,6 +6,9 @@ import Surfboard from 'src/assets/svg/surfboard.svg';
 import Dog from 'src/assets/svg/dog.svg';
 import Code from 'src/assets/svg/code.svg';
 import Travel from 'src/assets/svg/travel.svg';
+import JS from 'src/assets/svg/js.svg';
+import CSS from 'src/assets/svg/css.svg';
+import Settings from 'src/assets/svg/settings.svg';
 
 export interface IconProps {
   name: string;
@@ -25,6 +28,9 @@ export const Icon: React.FC<IconProps> = ({ name, className }) => {
         : name == "Dog" ? <Dog />
         : name == "Code" ? <Code />
         : name == "Travel" ? <Travel />
+        : name == "JS" ? <JS />
+        : name == "CSS" ? <CSS />
+        : name == "Settings" ? <Settings />
         : null
       }
     </div>

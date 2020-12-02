@@ -15,7 +15,7 @@ export const Biography: React.FC = () => {
         <Box numColumns={1}>
           <div className={styles.Biography__title}>
             <Title 
-                size={14}
+                size={13}
                 weight="bold"
                 alignment="left"
               >
@@ -25,9 +25,11 @@ export const Biography: React.FC = () => {
         </Box>
         <Box numColumns={1}>
           <div className={styles.Biography__info}>
-            <TextBlock size={4}>
+            <TextBlock size={2} spacing={2}>
               I'm Corey Byrum. I'm a Front End Engineer based out of San Francisco, California.
               I have experience building and maintaing component libraries, archetyping new solutions and initiatives, and working on large teams in an agile environment.
+            </TextBlock>
+            <TextBlock size={2}>
               I'm passionate about user experience, whether that's existential or direct, it's gratifying to be able to create an impact.
             </TextBlock>
           </div>
