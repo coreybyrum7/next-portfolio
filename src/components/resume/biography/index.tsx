@@ -32,7 +32,7 @@ export const Biography: React.FC = () => {
               I'm Corey Byrum. I'm a Front End Engineer based out of San Francisco, California.
               I have experience building and maintaing component libraries, archetyping new solutions and initiatives, and working on large teams in an agile environment.
             </TextBlock>
-            <TextBlock size={2}>
+            <TextBlock size={3}>
               I'm passionate about user experience, whether that's existential or direct, it's gratifying to be able to create an impact.
             </TextBlock>
           </div>

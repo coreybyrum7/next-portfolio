@@ -1,6 +1,6 @@
 .Header {
   border-bottom: 1px solid #cecece;
-  @include padding($bottom: 7);
+  @include padding($bottom: 6);
 
   &__info {
     height: 100%;

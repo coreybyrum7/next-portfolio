@@ -3,7 +3,7 @@
     border-radius: 2px;
 
     @include margin($right: 8, $bottom: 6);
-    @include padding($top: 5, $x: 6, $bottom: 4);
+    @include padding($top: 5, $x: 4, $bottom: 4);
     
     &__container {
       display: flex;

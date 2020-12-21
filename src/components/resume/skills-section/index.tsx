@@ -17,10 +17,10 @@ export const SkillsSection: React.FC<SkillsSectionProps> = ({ icon, title, posit
       <div className={styles.SkillsSection__container}>
         <Icon name={icon} className="skills" />
         <div className={styles.SkillsSection__container_content}>
-          <Title size={2} weight="bold" spacing={2}>
+          <Title size={3} weight="bold" spacing={2}>
             {title}
           </Title>
-          <Title size={2} weight="light">
+          <Title size={3} weight="bold">
             <span>{position}</span>
           </Title>
         </div>

@@ -4,7 +4,7 @@ import styles from './index.module.scss';
 export interface TextBlockProps {
   size: number;
   spacing?: number;
-  weight?: 'light' | 'normal' | 'heavy';
+  weight?: 'light' | 'normal' | 'bold';
 }
 
 export const TextBlock: React.FC<TextBlockProps> = ({ size, spacing, weight, children }) => {

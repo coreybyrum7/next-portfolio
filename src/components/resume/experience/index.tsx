@@ -19,15 +19,15 @@ export const Experience: React.FC = () => {
         position="UI Engineer"
         date="08/2019 - Present"
         p1="Creation and maintenance of DesignKit, the component library for PlayStation.com"
-        p2="Created reusable components such as grids, sub-grids, carousels, banners, heros, text and button components. Allowed for author customization of said components."
-        p3="PlayStation annual wrap-up and other one-off campaigns"
+        p2="Ensure components such as grids, sub-grids, carousels, banners, heros, text and button components are reusable and customizable via props and classes"
       />
       <ExperienceSection
         title="Learn on Demand Systems"
         position="Lead UI/UX Engineer"
         date="09/2018 - 08/2019"
         p1="Lead new design initiatives with UX best practices"
-        p2="Including documentation site, course/class/subscription catalogs using Netflix like transitions, a one-stop-shop admin menu for administrators, which included click history, site search, and menu customization options."
+        p2="Create new documentation site and one-stop-shop admin menu for administrators, both including click history, site search, and menu customization options"
+        p3="Redesigned course/class/subscription catalogs using Netflix like transitions"
       />
       <ExperienceSection
         title="Learn on Demand Systems"
@@ -39,6 +39,7 @@ export const Experience: React.FC = () => {
         title="3M Health Information Systems"
         position="Full Stack Engineer"
         date="02/2016 - 01/2018"
+        p1="Enhanced 3M HIS's grouping software allowing for health care coding, payment, and analytics"
       />
       <ExperienceSection
         title="Charles Schwab"

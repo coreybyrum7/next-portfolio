@@ -1,7 +1,7 @@
 .TextBlock {
   font-size: 1.25rem;
-  font-weight: 400;
-  line-height: 1.25em;
+  font-weight: 300;
+  line-height: 1.2em;
 
   @for $i from 1 through 14 {
     &--size-#{$i} {
@@ -19,7 +19,7 @@
     }
 
     &-normal {
-      @include font-weight(400);
+      @include font-weight(300);
     }
 
     &-bold {

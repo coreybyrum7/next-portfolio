@@ -13,7 +13,10 @@ export const Header: React.FC = () => {
         tabletCols={2}
         desktopCols={2}
       >
-        <Box numColumns={1}>
+        <Box 
+          numColumns={1}
+          alignVertically="true"
+        >
           <div className={styles.Header_title}>
             <Title 
               size={5}
@@ -26,10 +29,10 @@ export const Header: React.FC = () => {
         </Box>
         <Box numColumns={1}>
           <div className={styles.Header__info}>
-            <TextBlock size={3}>
+            <TextBlock weight="bold" size={3}>
               coreybyrum7@gmail.com
             </TextBlock>
-            <TextBlock size={3}>
+            <TextBlock weight="bold" size={3}>
               +1 (252) 489-0938
             </TextBlock>
           </div>
