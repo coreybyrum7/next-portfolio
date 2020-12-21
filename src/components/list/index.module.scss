@@ -1,5 +1,6 @@
 .List {
   list-style: none;
+  padding-left: calc(#{var(--space-3)} + #{var(--space-4)});
   @include margin($top: 0, $bottom: 0);
   @include padding($left: 6);
 

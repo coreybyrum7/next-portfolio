@@ -1,0 +1,23 @@
+.SkillsSection {
+    border: 1px solid #000;
+    border-radius: 2px;
+
+    @include margin($right: 8, $bottom: 6);
+    @include padding($top: 5, $x: 6, $bottom: 4);
+    
+    &__container {
+      display: flex;
+  
+      &:nth-of-type(1) {
+        @include margin($bottom: 2);
+      }
+  
+      &_content {
+        display: flex;
+        flex-direction: column;
+    
+        @include padding($bottom: 2);
+      }
+    }
+  }
+  

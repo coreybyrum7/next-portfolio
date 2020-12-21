@@ -33,7 +33,7 @@ export const Experience: React.FC = () => {
         title="Learn on Demand Systems"
         position="Front End Engineer"
         date="02/2018 - 09/2018"
-        p1="Built out LODs' Training Management platform"
+        p1="Built out LODs' Training Management platform which allowed customers to create and manage classrooms, labs, and students"
       />
       <ExperienceSection
         title="3M Health Information Systems"
