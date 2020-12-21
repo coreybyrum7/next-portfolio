@@ -17,10 +17,10 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ title, pos
       <div className={styles.ExperienceSection__container}>
         <Icon name="ChevronRight" />
         <div className={styles.ExperienceSection__container_content}>
-          <Title size={4} weight="bold" spacing={2}>
+          <Title size={3} weight="bold" spacing={2}>
             {title}
           </Title>
-          <Title size={4} weight="light">
+          <Title size={3} weight="light">
             <span>{position}</span> | {date}
           </Title>
         </div>

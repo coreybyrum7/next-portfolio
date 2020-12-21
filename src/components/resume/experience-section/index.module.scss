@@ -11,8 +11,6 @@
     &_content {
       display: flex;
       flex-direction: column;
-  
-      @include padding($bottom: 2);
     }
   }
 }

@@ -1,14 +1,14 @@
 .Icon {
-  width: var(--space-6);
-  height: var(--space-8);
+  width: var(--space-4);
+  height: var(--space-6);
 
-  @include margin($right: 5);
+  @include margin($right: 4);
 
   &--interests {
-    width: var(--space-11);
-    height: var(--space-11);
+    width: var(--space-9);
+    height: var(--space-9);
     border: 2px solid black;
     border-radius: 100%;
-    @include padding($all: 5);
+    @include padding($all: 3);
   }
 }

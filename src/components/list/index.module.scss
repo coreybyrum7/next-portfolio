@@ -1,11 +1,11 @@
 .List {
   list-style: none;
   @include margin($top: 0, $bottom: 0);
-  @include padding($left: 8);
+  @include padding($left: 6);
 
   li {
-    line-height: 1.5em;
-    @include font(4);
+    line-height: 1.25em;
+    @include font(3);
     @include padding($bottom: 2);
   }
 }

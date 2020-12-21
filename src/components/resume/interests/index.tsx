@@ -8,8 +8,8 @@ export const Interests: React.FC = () => {
   return (
     <div className={styles.Interests}>
       <Title 
-        size={6}
-        spacing={6}
+        size={5}
+        spacing={5}
       >
         Interests
       </Title>

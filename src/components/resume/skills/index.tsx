@@ -8,7 +8,7 @@ export const Skills: React.FC = () => {
   return (
     <div className={styles.Skills}>
       <Title 
-        size={6}
+        size={5}
         spacing={5}
       >
         Skills
