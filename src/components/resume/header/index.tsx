@@ -29,7 +29,7 @@ export const Header: React.FC = () => {
         </Box>
         <Box numColumns={1}>
           <div className={styles.Header__info}>
-            <TextBlock weight="bold" size={3}>
+            <TextBlock weight="bold" size={3} spacing={2}>
               coreybyrum7@gmail.com
             </TextBlock>
             <TextBlock weight="bold" size={3}>
