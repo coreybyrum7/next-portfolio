@@ -16,7 +16,7 @@ export const Experience: React.FC = () => {
       </Title>
       <ExperienceSection
         title="PlayStation"
-        position="UI Engineer"
+        position="Front End Engineer"
         date="08/2019 - Present"
         p1="Creation and maintenance of DesignKit, the component library for PlayStation.com"
         p2="Ensure components such as grids, sub-grids, carousels, banners, heros, text and button components are reusable and customizable via props and classes"
